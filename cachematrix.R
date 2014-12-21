@@ -10,7 +10,7 @@
 ## The usage of the assignment operator '<<-' will prevent the variables
 ## from being exposed to the outside world.
 ##
-##************************* How to test ***********************
+##************************* How to test the functions ***********************
 ## 1. Change the diretory in RStudio to the folder where cacheMatrix.R resides
 ## 2. Load the cacheMatrix.R:
 ## 	> source("/cachematrix.R")
@@ -27,7 +27,6 @@
 
 makeCacheMatrix <- function(x = matrix()) {
 	# This initializes the variable where the inversion result will be stored
-	#xinv <- NULL
 	mInv <- NULL
       
 	# The setter function
